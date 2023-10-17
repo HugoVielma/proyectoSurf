@@ -1,0 +1,25 @@
+.pie {
+  background-color: aquamarine;
+  color: darkblue;
+}
+.btn-success {
+  background-color: aquamarine;
+  color: darkblue;
+}
+.container_main {
+  display: flex;
+  align-items: center;
+}
+
+.image_main {
+  width: 50%;
+  height: auto;
+}
+
+.text_main {
+  margin-left: 20px;
+  font-size: 18px;
+}
+.titulo {
+  color: darkblue;
+}

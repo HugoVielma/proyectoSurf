@@ -2,7 +2,7 @@ from django.shortcuts import render
 from .models import *
 from django.contrib.auth.forms import AuthenticationForm, UserCreationForm
 from django.contrib.auth import authenticate, login, logout
-# Create your views here.
+from tienda.views import tienda
 
 def inicio(req):
     return render(req, "inicio.html")

@@ -1,8 +1,10 @@
 {% extends 'base.html' %}
 {% block seccionCambiable %}
 <form  action= "{%url 'Registrar'%}" method="post"> {% csrf_token %}
-    {{miFormulario.as_p}}
-    <button type="submit">Crear</button>
-</form>
 
+  <div style="width: 65%;margin: auto;">
+     {{miFormulario.as_p}}
+     <button type="submit" class="btn btn-success">Registrar</button>
+  </div> 
+</form>
 {% endblock seccionCambiable %}

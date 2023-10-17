@@ -9,5 +9,7 @@ urlpatterns = [
     path('appSurf/', include('AppSurf.urls')),
     path('tienda/', include('tienda.urls')),
     path('carro/', include('carro.urls')),
+    path('autenticacion/', include('autenticacion.urls')),
+    path('contacto/', include('contacto.urls'))
 ]
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

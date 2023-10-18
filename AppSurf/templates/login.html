@@ -3,6 +3,6 @@
 
 <form  action= "{%url 'Login' %}" method="post"> {% csrf_token %}
     {{miFormulario.as_p}}
-    <button type="submit">Ingresar</button>
+    <button type="submit" class="btn btn-success">Ingresar</button>
 </form>
 {% endblock seccionCambiable %}

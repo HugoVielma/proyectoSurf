@@ -20,7 +20,7 @@ def loginview(req):
                 login(req, user)
                 return render(req, "inicio.html", {"mensaje": f"Bienvenido {usuario}"})
         else:
-            return render(req, "inicio.html", {"mensaje": f"Datos incorrectos"})
+            return render(req, "inicio.html", {"mensaje": f"Datos incorrectos para login"})
 
     else:
         miFormulario = AuthenticationForm()

@@ -54,4 +54,7 @@ Se presentan en el enlace 2 videos:
 
 - Contraseña:ilovecodes
 
-### Documento casos de pruebas también serán cargados en el proyecto.
+### Documento casos de pruebas:
+
+- En este enlace se encuentra el cuadro con las pruebas realizadas.
+  https://docs.google.com/spreadsheets/d/10CfBRBVI8AqsQNlBbc3ElDl3FzEk2_5tNGyNAcZoJPc/edit?usp=sharing
